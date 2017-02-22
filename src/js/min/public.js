@@ -1,0 +1,1 @@
+function r(e){var n=window.innerWidth;document.getElementsByTagName("html")[0].style.fontSize=.15625*n+"px"}window.onresize=r,setTimeout(function(){r(0)},100);

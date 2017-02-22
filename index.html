@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+		<title>无间刀</title>
+		<link rel="stylesheet" href="src/css/public.css">
+		<link rel="stylesheet" href="src/css/index.css">
+		<link rel="stylesheet" href="src/css/swipe.css">
+		<script type="text/javascript" src="src/js/jquery.min.js"></script>
+		<script type="text/javascript" src="src/js/public.js"></script>
+		<script type="text/javascript" src="src/js/min/swipe.js"></script>
+		<script type="text/javascript" src="src/js/index.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="left"><img src="images/icon.png"></div>
+			<div class="right">
+				<div class="top_1"><h3>无间刀</h3></div>
+				<div class="top_2">
+					<ul>
+						<li><img src="images/x1.png"></li>
+						<li><img src="images/x3.png"></li>
+						<li><img src="images/x2.png"></li>
+						<li><img src="images/x2.png"></li>
+						<li><img src="images/x2.png"></li>
+					</ul>
+				</div>
+				<div class="top_3">网络游戏 74.5MB <div id="num1">193</div>次下载</div>
+			</div>
+		</header>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+			    <div class="swiper-slide"><img src="images/1.jpg"></div>
+                <div class="swiper-slide"><img src="images/2.jpg"></div>
+                <div class="swiper-slide"><img src="images/3.jpg"></div>
+                <div class="swiper-slide"><img src="images/4.jpg"></div>
+			</div>			
+		</div>
+		<section>			
+				<h3>【游戏简介】</h3>
+			<div class="div1">
+				1. 布局基本延用客户端界面，稍作修改，去除了顶部导航条、中间的菜单栏及底部猜你喜欢版块
+                
+                2. 顶部区域显示游戏logo，名称，星级，类型，安装包大小，下载次数，这些现在都能通过后台配置有现成数据。顶部游戏名
+                5. 简介下方显示详细信息：更新时间，版本号，客服电话，更新时间和版本号通过后台配置 
+			</div>
+			<div class="div2">
+				 6. 最下方的“下载按钮”固定显示在屏幕底部，不随页面滚动，检测用户是否已安装应用，如未安装显示“下载”，如已安装则根据用户安装的版本是否比我们提供的版本低，对应地显示“更新”或“打开”，下载完成自动引导安装
+                                                   暂停中：顶部下载按钮图标变成继续按钮，按钮下方显示文字“继续”，底部下载按钮显示“继续下载”
+                
+                                                   下载完成未安装：顶部和底部均显示为安装按钮
+                
+                                                    安装完成且版本一致：顶部和底部均显示为打开钮
+	 		</div>
+	 		<div class="div3"><span class="dd">展开</span></div>
+	 		<div class="div4"><span class="dd">关闭</span></div>
+		</section>
+		<aside>
+			<h3>【详细说明】</h3>
+			<ul>
+				<li>更新:2017-02-14</li>
+				<li>版本:1.0.4</li>
+				<li>客服电话:0318-4358807</li>
+			</ul>
+		</aside>
+		<footer>
+			<a href="#" id="btn">下载</a>
+		</footer>
+	</body>
+	<script> 
+       var mySwiper = new Swiper('.swiper-container', {
+	   autoplay: 5000,//可选选项，自动滑动
+	   
+       
+       })
+    </script>
+</html>
